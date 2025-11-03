@@ -3,7 +3,6 @@
 Servicio Windows (.NET Framework 4.8) diseñado para procesar archivos Excel de merchants provenientes de un servidor FTP/SFTP, actualizar información en SQL Server, generar reportes en Excel, y subirlos nuevamente al servidor remoto.  
 El servicio se ejecuta en intervalos de tiempo configurables definidos en base de datos y envía notificaciones por correo electrónico tras cada ciclo de procesamiento.
 
----
 
 ## Características principales
 
