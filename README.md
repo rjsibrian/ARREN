@@ -14,7 +14,6 @@ El servicio se ejecuta en intervalos de tiempo configurables definidos en base d
 - Logging detallado en ruta configurada.
 - Configuración dinámica de parámetros (rutas, credenciales, horas, etc.) desde App.config.
 
----
 
 ## Tabla de Contenidos
 
@@ -23,7 +22,6 @@ El servicio se ejecuta en intervalos de tiempo configurables definidos en base d
 - [Configuración y Variables de Entorno](docs/Configuracion.md)
 - [Dependencias del Proyecto](docs/Dependencias.md)
 
----
 
 ## Requisitos
 
@@ -35,7 +33,6 @@ Servidor Windows con:
 - Conectividad al servidor SFTP configurado.  
 - Acceso al servidor SMTP (puerto 587 abierto).  
 
----
 
 ## Despliegue
 
@@ -62,7 +59,6 @@ Servidor Windows con:
    - Buscar **Servicio Merchant**.  
    - Iniciarlo manualmente o configurar su inicio como **Automático**.
 
----
 
 ## Operación
 
@@ -71,7 +67,6 @@ Servidor Windows con:
 - Los errores y eventos se registran en los archivos de log (`PathLog`).  
 - En caso de fallo en el envío de correo, se realizan hasta **3 reintentos automáticos** antes de registrar el error en la base de datos.
 
----
 
 ## Solución de Problemas
 
@@ -83,5 +78,4 @@ Servidor Windows con:
 | Error SQL              | Timeout o cadena de conexión inválida       | Revisar conexión y procedimientos almacenados    |
 | Servicio no inicia     | Dependencias faltantes (.NET Framework 4.8 o permisos) | Verificar instalación del runtime y permisos de usuario |
 
----
 
